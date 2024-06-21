@@ -1,9 +1,11 @@
-from parking_project import parking_project
-from parking import parking
-from parking_out import parking_out
-from parking_status import parking_status
-
 def main():
+    """
+    Main function to handle the parking system operations.
+    
+    This function provides a command-line interface for users to interact with the parking system.
+    Users can choose to park a car, remove a car from the parking, check the parking status, or quit the program.
+    The function runs in an infinite loop until the user decides to quit.
+    """
     # Initialize parking lots and reserved lots
     while True:
         choice = input("Enter your choice: ")
